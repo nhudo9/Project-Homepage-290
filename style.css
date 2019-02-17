@@ -1,0 +1,102 @@
+/*stylesheet for 3dayweekend*/
+
+h1 {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size:8vw;
+}
+
+h2 {
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+body {
+	background-color: #E0FFFF;
+	color: lightcyan;
+	margin: 0;
+	padding: 0;
+}
+ul { 
+	display:table; 
+	margin:0 auto;
+}
+ol { 
+	list-style-position: inside;
+}
+
+
+div {
+	background-color: lightcyan;
+	width: 90%;
+	margin: 10px;
+	padding: 10px;
+}
+
+#intro {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.normText{
+	color: darkslategrey;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.feedbacktext{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+.banner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.list{
+	text-align: center;
+}
+
+.tab{
+	overflow:hidden;
+	border: 1 px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
